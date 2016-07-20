@@ -1,0 +1,107 @@
+html {
+    background-color: rgb(192, 192, 192);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 760px;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: white;
+    border: 1px solid black;
+}
+header {
+    border-bottom: 2px solid black;
+    padding: .5em 0;
+}
+header h1 {
+    color: black;
+}
+main {
+
+}
+aside {
+    float: left;
+    width: 150px;
+}
+section {
+    float: left;
+    width: 500px;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(41, 64, 124);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(208, 133, 4);
+}
+form {
+    margin: 0;
+}
+label {
+    width: 5em;
+    float: left;
+    text-align: right;
+    margin-right: 1em;
+    margin-top: .25em;
+    margin-bottom: .75em;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+td, th {
+    padding: .25em 0;
+}
+br {
+    clear: both;
+}
+
+/* the styles for the table header and footer */
+#cart_header th {
+    border-bottom: 2px solid black;
+}
+#cart_footer td {
+    text-align: right;
+    border-top: 2px solid black;
+}
+/* the styles for the classes */
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+
+.cart_qty {
+    text-align: right;
+    width: 3em;
+}
